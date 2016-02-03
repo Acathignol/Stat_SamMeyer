@@ -26,7 +26,7 @@ curve(dt(x,18),add=TRUE,col='blue',lwd=2)
 
 #-------------------------------------------------------------------------------
 
-Table<-read.table("/home/acathignol/R/Stat_SamMeyer/ecart.txt")
+Table<-read.table("/home/acathignol/R/Stat/Stat_SamMeyer/ecart.txt")
 plot(Table$V2~Table$V1,ylab='Ecart',xlab='T1 et T2')
 
 echT1<-Table$V2[Table$V1=="T1"]
